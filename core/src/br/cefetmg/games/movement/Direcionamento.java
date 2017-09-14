@@ -18,4 +18,8 @@ public class Direcionamento {
         velocidade = new Vector3();
         rotacao = 0;
     }
+    public Direcionamento(float i ,float b){
+        this.velocidade = new Vector3(i,b,0);
+        this.rotacao=0;
+    }
 }
